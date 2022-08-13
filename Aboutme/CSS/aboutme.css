@@ -1,0 +1,50 @@
+@Font-face {
+   font-family: Main_font;
+   src: url(/Fonts/poppins-v5-latin-500.ttf);
+}
+
+.Title {
+  font-family: Main_font;
+    font-size: 100px;
+    color: white;
+}
+
+.Text {
+  font-family: Main_font;
+    color: white;
+}
+
+.parallax {
+    
+  /* Set a specific height */
+  min-height: 500px; 
+
+    
+  /* The image used */
+  background-image: url('/Images/Revanced_logo.png');
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation
+}
+
+.fade {
+    animation: 1px;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: dodgerblue  ;
+  text-decoration: underline;
+}
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
